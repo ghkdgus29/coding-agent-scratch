@@ -1,0 +1,5 @@
+{
+  "instruction": "Add a `--top N` option to wordcount.py. When given, after the total line print the N most common words, one per line, formatted as `<word>: <count>`, most common first; break ties alphabetically. Without `--top` the output must stay exactly as it is now.",
+  "fail_to_pass": "python3 -m unittest -q _hidden_tests.test_top",
+  "pass_to_pass": "python3 -m unittest discover -q -s tests -t ."
+}

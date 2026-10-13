@@ -1,0 +1,5 @@
+{
+  "instruction": "Rename the function `calc_total` to `compute_total` everywhere in this project (definition and all call sites). Do not keep the old name.",
+  "fail_to_pass": "python3 -m unittest -q _hidden_tests.test_rename",
+  "pass_to_pass": "python3 -m unittest discover -q -s tests -t ."
+}

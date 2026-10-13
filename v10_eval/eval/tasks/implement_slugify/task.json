@@ -1,0 +1,5 @@
+{
+  "instruction": "Implement `slugify` in text_utils.py according to its docstring. Do not change the other functions.",
+  "fail_to_pass": "python3 -m unittest -q _hidden_tests.test_slugify",
+  "pass_to_pass": "python3 -m unittest discover -q -s tests -t ."
+}

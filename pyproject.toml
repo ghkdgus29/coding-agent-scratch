@@ -1,0 +1,14 @@
+[project]
+name = "coding-agent-scratch"
+version = "0.10.0"
+description = "순수 파이썬(표준 라이브러리만)으로 만드는 코딩 에이전트 학습 프로젝트 — v00 → v10"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []  # 의도적으로 비워둔다: 표준 라이브러리만 사용
+
+[tool.uv]
+package = false  # 설치할 패키지가 아니라 버전 폴더들의 모음 (uv는 Python 버전·venv 관리용)
+
+[tool.ruff]
+target-version = "py314"
+line-length = 120

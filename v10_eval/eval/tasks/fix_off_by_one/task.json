@@ -1,0 +1,5 @@
+{
+  "instruction": "Users report that the first page of results is never shown and the last partial page is missing from the page count. Fix pagination.py.",
+  "fail_to_pass": "python3 -m unittest -q _hidden_tests.test_pagination",
+  "pass_to_pass": "python3 -m unittest discover -q -s tests -t ."
+}

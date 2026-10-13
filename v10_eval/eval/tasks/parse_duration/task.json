@@ -1,0 +1,5 @@
+{
+  "instruction": "`parse_duration` in durations.py should accept combined units like '1h30m' or '2h5m10s', but it only handles a single unit. Make it handle any combination of h, m and s (each at most once, in that order), and raise ValueError for anything invalid (empty string, unknown unit, wrong order, repeated unit).",
+  "fail_to_pass": "python3 -m unittest -q _hidden_tests.test_durations",
+  "pass_to_pass": "python3 -m unittest discover -q -s tests -t ."
+}

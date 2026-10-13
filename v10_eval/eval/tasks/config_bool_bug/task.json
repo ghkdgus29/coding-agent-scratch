@@ -1,0 +1,5 @@
+{
+  "instruction": "Setting DEBUG=false still turns debug mode on. Fix load_config in config.py so boolean settings are parsed correctly (accept true/false, 1/0, yes/no, on/off, case-insensitive; raise ValueError for anything else).",
+  "fail_to_pass": "python3 -m unittest -q _hidden_tests.test_bools",
+  "pass_to_pass": "python3 -m unittest discover -q -s tests -t ."
+}

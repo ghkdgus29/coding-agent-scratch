@@ -41,3 +41,15 @@ yarn-error.log*
 *.pem
 .vercel
 .netlify
+# Python
+__pycache__/
+*.pyc
+
+# Agent runtime data (sessions, saved outputs)
+.agent/
+
+# Eval results
+v10_eval/eval/results/
+
+# uv
+.venv/
